@@ -75,3 +75,39 @@ go
 --	[court id] int foreign key references [courts]([court id])
 --	constraint _ primary key ([person id], [court id])
 --)
+
+
+create table [trials](
+    [trial id] int identity(1, 1) primary key,
+    [subject id] int foreign key references [specializations]([specialization id]) check ([subject id] <> 21),
+    [description] text,
+    [date] date,
+    [court id] int foreign key references [courts]([court id])
+);
+go
+
+create table [judges in trial](
+    [trial id] int foreign key references [trials]([trial id]),
+    [person id] int,
+    [court id] int,
+    constraint __1 foreign key ([person id], [court id]) references [judges]([person id], [court id]),
+    constraint __2 primary key ([person id], [trial id])
+);
+go
+
+create table [lawyers in trial](
+    [trial id] int foreign key references [trials]([trial id]),
+    [person id] int,
+    [bar id] int,
+    [team] char(8) check([team] in('Offence', 'Defence')),
+    constraint __3 foreign key ([person id], [bar id]) references [lawyers]([person id], [bar id]),
+    constraint __4 primary key ([person id], [trial id])
+);
+go
+
+create table [defendants](
+    [trial id] int foreign key references [trials]([trial id]),
+    [person id] int foreign key references [people]([person id]),
+    [conclusion] text, -- found innocent, sentenced to death etc.
+    constraint __5 primary key ([person id], [trial id])
+);
