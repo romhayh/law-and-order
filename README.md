@@ -1,6 +1,6 @@
 this is my sql database
 
-![database diagram:](./Untitled.png)
+![database diagram:](./image.png)
 
 
 ## Useful links:
