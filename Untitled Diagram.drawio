@@ -1,1 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2021-04-18T10:54:57.630Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" version="14.6.1" etag="XeJiqeJ7NYGM007v8EZu" type="github"><diagram id="Ai0n7KqELeSr39tjTCr5">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-18T11:16:22.607Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="AxLTr-qA3vy6pcQSzZ3F" version="14.6.1" type="github">
+  <diagram id="Ai0n7KqELeSr39tjTCr5" name="Page-1">
+    <mxGraphModel dx="1422" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WwNEeVXG2boPT93ke-C8-1" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(32, 33, 34); font-family: sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;b style=&quot;color: rgb(32, 33, 34); font-family: sans-serif; font-size: 14px; font-style: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;judicial system&lt;/b&gt;&#xa;&#xa;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="250" width="280" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="WwNEeVXG2boPT93ke-C8-4" value=",מטפלים במאגרי המידע שיש למערכת לספק&lt;br&gt;פעולות כמו הכנסה, הוצאה עדכון וחיפוש" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.318;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="WwNEeVXG2boPT93ke-C8-3" target="WwNEeVXG2boPT93ke-C8-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="252" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WwNEeVXG2boPT93ke-C8-3" value="secretaries" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="300" width="110" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
