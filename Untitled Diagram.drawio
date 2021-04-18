@@ -1,9 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2021-04-18T11:16:22.607Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="AxLTr-qA3vy6pcQSzZ3F" version="14.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-18T11:30:42.987Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="75wYLhL_7GXxG1SfsRX5" version="14.6.1" type="github">
   <diagram id="Ai0n7KqELeSr39tjTCr5" name="Page-1">
     <mxGraphModel dx="1422" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WwNEeVXG2boPT93ke-C8-9" value="מקבלים מהמערכת את המידע המבוקש:&lt;br&gt;כתבי אישום&lt;br&gt;רישום חברות&lt;br&gt;רישום בתי משפט&lt;br&gt;רישום עורכי דין, ואימות לשכתי&lt;br&gt;רישום אנשים הנמצאים במערכת&lt;br&gt;שופטים" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WwNEeVXG2boPT93ke-C8-1" target="WwNEeVXG2boPT93ke-C8-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="539" y="200" />
+              <mxPoint x="825" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WwNEeVXG2boPT93ke-C8-1" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(32, 33, 34); font-family: sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;b style=&quot;color: rgb(32, 33, 34); font-family: sans-serif; font-size: 14px; font-style: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255);&quot;&gt;judicial system&lt;/b&gt;&#xa;&#xa;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="250" width="280" height="150" as="geometry" />
         </mxCell>
@@ -16,6 +24,15 @@
         </mxCell>
         <mxCell id="WwNEeVXG2boPT93ke-C8-3" value="secretaries" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="300" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WwNEeVXG2boPT93ke-C8-6" value="E1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="300" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WwNEeVXG2boPT93ke-C8-7" value="secretaries" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="300" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WwNEeVXG2boPT93ke-C8-8" value="E1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="300" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
