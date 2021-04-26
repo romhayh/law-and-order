@@ -2,6 +2,7 @@ from enum import unique
 from faker import Faker
 import pyodbc
 import numpy as np
+from random import choice
 
 
 fake = Faker()
@@ -107,7 +108,7 @@ def genLawyer(conn):
     print(f'rankdist len = {len(rankdist)}' )
     print(rankdist)
     
-    for firmid in range(1, AMOUNT_OF_FIRMS+1):
+    for firmid in range(62, AMOUNT_OF_FIRMS+1):
         #TODO step I
         # get the city of the firm
         cursor = sqlexec(conn,
@@ -115,6 +116,8 @@ def genLawyer(conn):
                             SELECT [city id] from [firms] where [firm id] = {firmid}
                         ''',
                         return_=True)
+        if cursor == []:
+            continue
         cityid = cursor[0][0]
         
         isManaging = True   # make 1 mg partner for each firm
@@ -242,6 +245,175 @@ def genCourt(conn):
             cursor.commit()
     
     
+def getPerson(conn, cityid: int, amount: int):
+    cursor = sqlexec(conn,
+                     f'''
+                     select top {amount} [person id] from [people]
+                     where [city id] = {cityid} and 
+                     [person id] not in 
+                        (select l.[person id] from [lawyers] l)
+                     and
+                     [person id] not in 
+                        (select j.[person id] from [judges] j)
+                     order by newid();
+                     ''',
+                     return_= True)
+    return cursor
+
+
+def genJudges(conn):
+    cursor = sqlexec(conn, 
+                     'select [city id] from cities',
+                     return_=True)
+    for c in cursor:
+        ctid = c[0]
+        pids = getPerson(conn, ctid, int(np.random.uniform(1, 5)))
+        for p in pids:
+            pid = p[0]
+            crid = sqlexec(conn,
+                             f'''
+                             select top 1 [court id] from [courts]
+                             where [city id] = {ctid}
+                             order by newid();
+                             ''',
+                             return_=True)[0][0]
+            cursor = conn.cursor()
+            print(f'''
+                           insert into [judges]([person id], [court id])
+                           values({pid}, {crid});
+                           ''')
+            cursor.execute(f'''
+                           insert into [judges]([person id], [court id])
+                           values({pid}, {crid});
+                           ''')
+            cursor.commit()
+        
+        
+def getLawyers(conn, cityid: int, amount: int):
+    print(f'''
+                     select top {amount} l.[person id], l.[bar id] from [lawyers] l, [people] p
+                     where l.[person id] = p.[person id] and 
+                     p.[city id] = {cityid}
+                     order by newid();
+                     ''')
+    cursor = sqlexec(conn,
+                     f'''
+                     select top {amount} l.[person id], l.[bar id] from [lawyers] l, [people] p
+                     where l.[person id] = p.[person id] and 
+                     p.[city id] = {cityid}
+                     order by newid();
+                     ''',
+                     return_= True)
+    return cursor
+
+def getJudges(conn, cityid: int, amount: int):
+    print(f'''
+                     select top {amount} j.[person id], j.[court id] from [judges] j, [people] p
+                     where j.[person id] = p.[person id] and 
+                     p.[city id] = {cityid}
+                     order by newid();
+                     ''')
+    cursor = sqlexec(conn,
+                     f'''
+                     select top {amount} j.[person id], j.[court id] from [judges] j, [people] p
+                     where j.[person id] = p.[person id] and 
+                     p.[city id] = {cityid}
+                     order by newid();
+                     ''',
+                     return_= True)
+    return cursor
+
+def getCity(conn):
+    cursor = sqlexec(conn,
+                     '''
+                     select top 1 [city id]
+                     from [cities]
+                     order by newid();
+                     ''',
+                     return_=True)
+    return cursor[0][0]
+
+def genTrial(conn: pyodbc.Connection, amount: int):
     
-    
-genCourt(conn)
+    fake = Faker()
+    cursor = conn.cursor()
+    conclusions = ['\'innocent\'', '\'sent to 5 years in prison\'', '\'sent to 10 years in prison\'', '\'sent to 15 years in prison\'',  '\'sent to 2 years in prison\'',  '\'sent to 20 years in prison\'',  '\'sent to death\'']
+    teams = ['\'Offense\'', '\'Defense\'']
+    # generate trial:
+    for i in range(amount):
+        # subject id
+        sid = sqlexec(conn, return_=True,
+                    query=f'''
+                    select top 1 [specialization id] from [specializations]
+                    order by newid();''')[0][0]
+        
+        
+        # date
+        date = f'''\'{fake.date_between(start_date='-8y', end_date='today')}\''''
+        text = f'''\'{fake.paragraph(nb_sentences=5, variable_nb_sentences=False)}\''''
+        
+        ctid = getCity(conn)
+        crid = sqlexec(conn,
+                             f'''
+                             select top 1 [court id] from [courts]
+                             where [city id] = {ctid}
+                             order by newid();
+                             ''',
+                             return_=True)[0][0]
+        try:
+            cursor.execute(f'''
+                        insert into [trials]([subject id], [date], [description], [court id])
+                        values({sid}, {date}, {text}, {crid});
+                        ''')
+            cursor.commit()
+        except pyodbc.IntegrityError:
+            continue
+            
+        
+        
+        trid = sqlexec(conn, return_=True,
+                       query=f'''
+                       select top 1 [trial id] from [trials]
+                       where [subject id] = {sid} and 
+                       [date] = {date} and 
+                       [description] = {text} and
+                       [court id] = {crid};
+                       ''')[0][0]
+        print(trid)
+        # generate defendants:
+        for pid in getPerson(conn, ctid, int(np.random.uniform(1.1, 10))):
+            pid = pid[0]
+            conclusion = choice(conclusions)
+            print(f'''
+                           insert into [defendants]([trial id], [person id], [conclusion])
+                           values({trid}, {pid}, {conclusion});''')
+            cursor.execute(f'''
+                           insert into [defendants]([trial id], [person id], [conclusion])
+                           values({trid}, {pid}, {conclusion});''')
+            cursor.commit()
+        
+        # generate judges in trial:
+        for (jid, cridt) in getJudges(conn, ctid, int(np.random.uniform(1.1, 6))):
+            cursor.execute(f'''
+                           insert into [judges in trial]([trial id], [person id], [court id])
+                           values({trid}, {jid}, {cridt});''')
+            cursor.commit()
+            
+            
+        # generate lawyers in trial:
+        i = 0
+        team = teams[0]
+        for (lid, brid) in getLawyers(conn, getCity(conn), int(np.random.uniform(2.1, np.random.uniform(2.2, 10)))):
+            if i == 0:
+                team = teams[0]
+            elif i == 1:
+                team = teams[1]
+            else:
+                team = choice(teams)
+            cursor.execute(f'''
+                           insert into [lawyers in trial]([trial id], [person id], [bar id], [team])
+                           values({trid}, {lid}, {brid}, {team});''')
+            cursor.commit()
+            i += 1
+        
+genTrial(conn, 10000)

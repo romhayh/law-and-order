@@ -99,10 +99,11 @@ create table [lawyers in trial](
     [trial id] int foreign key references [trials]([trial id]),
     [person id] int,
     [bar id] int,
-    [team] char(8) check([team] in('Offence', 'Defence')),
-    constraint __3 foreign key ([person id], [bar id]) references [lawyers]([person id], [bar id]),
-    constraint __4 primary key ([person id], [trial id])
+    [team] char(8) check([team] in('Offense', 'Defense')),
+    constraint ad2424 foreign key ([person id], [bar id]) references [lawyers]([person id], [bar id]),
+    constraint fsa55 primary key ([person id], [trial id])
 );
+ 
 go
 
 create table [defendants](
