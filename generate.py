@@ -416,4 +416,4 @@ def genTrial(conn: pyodbc.Connection, amount: int):
             cursor.commit()
             i += 1
         
-genTrial(conn, 10000)
+
