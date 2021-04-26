@@ -1,20 +1,20 @@
-<mxfile host="app.diagrams.net" modified="2021-04-18T15:31:24.670Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="dlOrcW_hfEiAiICssiip" version="14.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-20T12:29:11.556Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="QlNoFe5iAFcAQnuWDzzr" version="14.6.3" type="github">
   <diagram id="HYVT0LZIWg47Ej7QKMoN" name="Page-1">
-    <mxGraphModel dx="2272" dy="1866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1632" dy="1541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-39" value="פרטי חברות \ בתי משפט" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-11" target="kZC-mCBZUUr3UXUseOFi-38">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-39" value="פרטי חברות \ בתי משפט" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kZC-mCBZUUr3UXUseOFi-11" target="kZC-mCBZUUr3UXUseOFi-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-54" value="פרטי שופטים \ עו&quot;דים \ נתוני לשכה" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-11" target="kZC-mCBZUUr3UXUseOFi-44">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-54" value="פרטי שופטים \ עו&quot;דים \ נתוני לשכה" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="kZC-mCBZUUr3UXUseOFi-11" target="kZC-mCBZUUr3UXUseOFi-44" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-55" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-58" value="פרטי משפט, שופטים, עו&quot;דים, נאשמים" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-11" target="kZC-mCBZUUr3UXUseOFi-57">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-58" value="פרטי משפט, שופטים, עו&quot;דים, נאשמים" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="kZC-mCBZUUr3UXUseOFi-11" target="kZC-mCBZUUr3UXUseOFi-57" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-55" y="-80" />
@@ -22,28 +22,37 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-11" value="secretaries" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-11" value="secretaries" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-110" y="190" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-12" value="E1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-12" value="E1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-110" y="190" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-13" value="secretaries" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-13" value="secretaries" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="930" y="180" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-14" value="E1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-14" value="E1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="930" y="180" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-40" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-15" target="kZC-mCBZUUr3UXUseOFi-38">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-40" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kZC-mCBZUUr3UXUseOFi-15" target="kZC-mCBZUUr3UXUseOFi-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-15" value="Firms" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="9b73_hGWLFeWTa7yN59r-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="60" />
+              <mxPoint x="330" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-15" value="Firms" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="-50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-17" value="D1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-17" value="D1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="90" y="-50" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-41" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.908;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-19" target="kZC-mCBZUUr3UXUseOFi-38">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-41" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.908;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kZC-mCBZUUr3UXUseOFi-19" target="kZC-mCBZUUr3UXUseOFi-38" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="285" y="20" />
@@ -53,19 +62,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-60" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-19" target="kZC-mCBZUUr3UXUseOFi-57">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-60" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0.063;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kZC-mCBZUUr3UXUseOFi-19" target="kZC-mCBZUUr3UXUseOFi-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-19" value="Courts" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="9b73_hGWLFeWTa7yN59r-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-19" target="kZC-mCBZUUr3UXUseOFi-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-19" value="Courts" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="225" y="-50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-20" value="D2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-20" value="D2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="225" y="-50" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-51" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.367;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-22" target="kZC-mCBZUUr3UXUseOFi-44">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-51" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.367;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kZC-mCBZUUr3UXUseOFi-22" target="kZC-mCBZUUr3UXUseOFi-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-62" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-22" target="kZC-mCBZUUr3UXUseOFi-57">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-62" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="kZC-mCBZUUr3UXUseOFi-22" target="kZC-mCBZUUr3UXUseOFi-57" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="365" y="400" />
@@ -73,16 +85,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-22" value="Lawyers" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-22" value="Lawyers" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="275" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-23" value="D3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-23" value="D3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="275" y="430" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-25" value="Bar" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-25" value="Bar" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="415" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-53" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-26" target="kZC-mCBZUUr3UXUseOFi-44">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-53" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="kZC-mCBZUUr3UXUseOFi-26" target="kZC-mCBZUUr3UXUseOFi-44" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="400" y="350" as="targetPoint" />
             <Array as="points">
@@ -92,13 +104,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-26" value="D4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-26" value="D4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="415" y="430" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-46" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-28" target="kZC-mCBZUUr3UXUseOFi-44">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-46" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kZC-mCBZUUr3UXUseOFi-28" target="kZC-mCBZUUr3UXUseOFi-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-64" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.625;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-28" target="kZC-mCBZUUr3UXUseOFi-57">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-64" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.625;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="kZC-mCBZUUr3UXUseOFi-28" target="kZC-mCBZUUr3UXUseOFi-57" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="185" y="550" />
@@ -106,29 +118,29 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-28" value="Judges" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-28" value="Judges" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="125" y="430" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-29" value="D5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-29" value="D5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="125" y="430" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-30" value="Trials" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-30" value="Trials" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="730" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;jumpStyle=none;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-32" target="kZC-mCBZUUr3UXUseOFi-57">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;jumpStyle=none;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1;" parent="1" source="kZC-mCBZUUr3UXUseOFi-32" target="kZC-mCBZUUr3UXUseOFi-57" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="760" y="202" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-32" value="D7" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-32" value="D7" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="730" y="310" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-55" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-34" target="kZC-mCBZUUr3UXUseOFi-44">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-55" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="kZC-mCBZUUr3UXUseOFi-34" target="kZC-mCBZUUr3UXUseOFi-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-67" value="עדכון הנאשמים במערכת" style="sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.025;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;rounded=0;startArrow=classic;startFill=1;edgeStyle=orthogonalEdgeStyle;jumpStyle=none;jumpSize=6;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-34" target="kZC-mCBZUUr3UXUseOFi-57">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-67" value="עדכון הנאשמים במערכת" style="sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.025;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;rounded=0;startArrow=classic;startFill=1;edgeStyle=orthogonalEdgeStyle;jumpStyle=none;jumpSize=6;" parent="1" source="kZC-mCBZUUr3UXUseOFi-34" target="kZC-mCBZUUr3UXUseOFi-57" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="425" y="130" />
@@ -136,24 +148,19 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-34" value="People" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-34" value="People" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-35" value="D6" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-35" value="D6" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="365" y="150" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-42" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-38" target="kZC-mCBZUUr3UXUseOFi-15">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-42" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="kZC-mCBZUUr3UXUseOFi-38" target="kZC-mCBZUUr3UXUseOFi-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-43" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-38" target="kZC-mCBZUUr3UXUseOFi-19">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-43" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="kZC-mCBZUUr3UXUseOFi-38" target="kZC-mCBZUUr3UXUseOFi-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-48" value="פרטי חברות \ בתי משפט" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-38" target="kZC-mCBZUUr3UXUseOFi-44">
-          <mxGeometry x="-0.1724" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-70" value="דוח מסודר של פרטי חברות \ בתי המשפט" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;jumpStyle=none;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.445;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1;curved=1;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-38" target="kZC-mCBZUUr3UXUseOFi-13">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-70" value="דוח מסודר של פרטי חברות \ בתי המשפט" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;jumpStyle=none;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.445;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1;curved=1;" parent="1" source="kZC-mCBZUUr3UXUseOFi-38" target="kZC-mCBZUUr3UXUseOFi-13" edge="1">
           <mxGeometry x="0.3468" y="-10" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="202" y="40" />
@@ -162,22 +169,22 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-38" value="טיפול בפרטי&amp;nbsp;&lt;br&gt;חברות \ בתי משפט" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-38" value="טיפול בפרטי&amp;nbsp;&lt;br&gt;חברות \ בתי משפט" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="80" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-49" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-44" target="kZC-mCBZUUr3UXUseOFi-29">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-49" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="kZC-mCBZUUr3UXUseOFi-44" target="kZC-mCBZUUr3UXUseOFi-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-50" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-44" target="kZC-mCBZUUr3UXUseOFi-22">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-50" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="kZC-mCBZUUr3UXUseOFi-44" target="kZC-mCBZUUr3UXUseOFi-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-52" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-44" target="kZC-mCBZUUr3UXUseOFi-25">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-52" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="kZC-mCBZUUr3UXUseOFi-44" target="kZC-mCBZUUr3UXUseOFi-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-56" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-44" target="kZC-mCBZUUr3UXUseOFi-34">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-56" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="kZC-mCBZUUr3UXUseOFi-44" target="kZC-mCBZUUr3UXUseOFi-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-71" value="דוח מסודר של עו&quot;דים \ נתוני לשכה \ שופטים" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=0;jumpStyle=none;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.618;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-44" target="kZC-mCBZUUr3UXUseOFi-13">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-71" value="דוח מסודר של עו&quot;דים \ נתוני לשכה \ שופטים" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=0;jumpStyle=none;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.618;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1;" parent="1" source="kZC-mCBZUUr3UXUseOFi-44" target="kZC-mCBZUUr3UXUseOFi-13" edge="1">
           <mxGeometry x="0.3932" y="30" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="372" y="420" />
@@ -186,13 +193,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-44" value="טיפול באנשי מקצוע הנמצאים במערכת&lt;br&gt;( שופטים ועו&quot;דים )" style="ellipse;whiteSpace=wrap;html=1;rounded=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-44" value="טיפול באנשי מקצוע הנמצאים במערכת&lt;br&gt;( שופטים ועו&quot;דים )" style="ellipse;whiteSpace=wrap;html=1;rounded=0;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="270" y="300" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;jumpStyle=none;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-57" target="kZC-mCBZUUr3UXUseOFi-30">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;jumpStyle=none;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="kZC-mCBZUUr3UXUseOFi-57" target="kZC-mCBZUUr3UXUseOFi-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-72" value="דוח מסודר של כתבי אישום&amp;nbsp; \ משפטים שנערכו&lt;br&gt;והנאשמים שנמצאים במערכת" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=0;jumpStyle=none;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1;" edge="1" parent="1" source="kZC-mCBZUUr3UXUseOFi-57">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-72" value="דוח מסודר של כתבי אישום&amp;nbsp; \ משפטים שנערכו&lt;br&gt;והנאשמים שנמצאים במערכת" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=0;jumpStyle=none;jumpSize=6;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1;" parent="1" source="kZC-mCBZUUr3UXUseOFi-57" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="920" y="190" as="targetPoint" />
             <Array as="points">
@@ -201,7 +208,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="kZC-mCBZUUr3UXUseOFi-57" value="טיפול במשפטים" style="ellipse;whiteSpace=wrap;html=1;rounded=0;sketch=0;" vertex="1" parent="1">
+        <mxCell id="kZC-mCBZUUr3UXUseOFi-57" value="טיפול במשפטים" style="ellipse;whiteSpace=wrap;html=1;rounded=0;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="610" y="150" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
