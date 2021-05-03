@@ -290,12 +290,6 @@ def genJudges(conn):
         
         
 def getLawyers(conn, cityid: int, amount: int):
-    print(f'''
-                     select top {amount} l.[person id], l.[bar id] from [lawyers] l, [people] p
-                     where l.[person id] = p.[person id] and 
-                     p.[city id] = {cityid}
-                     order by newid();
-                     ''')
     cursor = sqlexec(conn,
                      f'''
                      select top {amount} l.[person id], l.[bar id] from [lawyers] l, [people] p
@@ -307,12 +301,7 @@ def getLawyers(conn, cityid: int, amount: int):
     return cursor
 
 def getJudges(conn, cityid: int, amount: int):
-    print(f'''
-                     select top {amount} j.[person id], j.[court id] from [judges] j, [people] p
-                     where j.[person id] = p.[person id] and 
-                     p.[city id] = {cityid}
-                     order by newid();
-                     ''')
+    
     cursor = sqlexec(conn,
                      f'''
                      select top {amount} j.[person id], j.[court id] from [judges] j, [people] p
@@ -333,7 +322,7 @@ def getCity(conn):
                      return_=True)
     return cursor[0][0]
 
-def genTrial(conn: pyodbc.Connection, amount: int):
+def genTrials(conn: pyodbc.Connection, amount: int):
     
     fake = Faker()
     cursor = conn.cursor()
@@ -384,9 +373,6 @@ def genTrial(conn: pyodbc.Connection, amount: int):
         for pid in getPerson(conn, ctid, int(np.random.uniform(1.1, 10))):
             pid = pid[0]
             conclusion = choice(conclusions)
-            print(f'''
-                           insert into [defendants]([trial id], [person id], [conclusion])
-                           values({trid}, {pid}, {conclusion});''')
             cursor.execute(f'''
                            insert into [defendants]([trial id], [person id], [conclusion])
                            values({trid}, {pid}, {conclusion});''')
@@ -417,3 +403,4 @@ def genTrial(conn: pyodbc.Connection, amount: int):
             i += 1
         
 
+genTrials(conn, 10000)
