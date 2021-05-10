@@ -174,3 +174,24 @@ order by [population] desc;
 select * from [people] p
 where p.[full name] like '%r%o%m%';
 
+-- this query returns the age of female judges
+select top 50 p.[full name] as [name], datediff(day,p.birthdate, getdate())/365 as [age]
+from [judges] j, [people] p
+where j.[person id] = p.[person id]
+	  and p.[gender] = 'female' 
+order by 2 desc
+
+-- a query that finds out what gender ages better as a judge
+-- by giving us both gender`s ages
+select females.age as [female avg age],  males.age as [male avg age]
+from 
+	-- this query returns the avg female age as a judge
+	(select avg(datediff(year,p.birthdate, getdate())) as [age]
+	 from [judges] j, [people] p
+	 where j.[person id] = p.[person id]
+	  	   and p.[gender] = 'female') females,
+	-- this query returns the avg male age as a judge
+	(select avg(datediff(year,p.birthdate, getdate())) as [age]
+	 from [judges] j, [people] p
+	 where j.[person id] = p.[person id]
+	  	   and p.[gender] = 'male') males

@@ -77,14 +77,6 @@ go
 --)
 
 
-create table [trials](
-    [trial id] int identity(1, 1) primary key,
-    [subject id] int foreign key references [specializations]([specialization id]) check ([subject id] <> 21),
-    [description] text,
-    [date] date,
-    [court id] int foreign key references [courts]([court id])
-);
-go
 
 create table [judges in trial](
     [trial id] int foreign key references [trials]([trial id]),
@@ -106,9 +98,23 @@ create table [lawyers in trial](
  
 go
 
+drop table [defendants];
+go
 create table [defendants](
     [trial id] int foreign key references [trials]([trial id]),
     [person id] int foreign key references [people]([person id]),
-    [conclusion] text, -- found innocent, sentenced to death etc.
+    [conclusion] varchar(max), -- found innocent, sentenced to death etc.
     constraint __5 primary key ([person id], [trial id])
 );
+
+drop table [trials];
+go
+create table [trials](
+    [trial id] int identity(1, 1) primary key,
+    [subject id] int foreign key references [specializations]([specialization id]) check ([subject id] <> 21),
+    [description] varchar(max),
+    [date] date,
+    [court id] int foreign key references [courts]([court id])
+);
+go
+
